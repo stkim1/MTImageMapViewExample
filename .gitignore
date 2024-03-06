@@ -24,6 +24,7 @@ out/
 build/
 /gradle
 gradlew*
+app/libs/
 
 # Signing files
 .signing/
