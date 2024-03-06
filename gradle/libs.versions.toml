@@ -8,7 +8,6 @@ appcompat = "1.6.1"
 material = "1.11.0"
 constraintlayout = "2.1.4"
 squareupMoshiKotlin = "1.15.1"
-stkim1MTImageMapView = "0.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -18,7 +17,6 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 squareup-moshi-kotlin = {group = "com.squareup.moshi", name = "moshi-kotlin", version.ref = "squareupMoshiKotlin"}
-stkim1-view-mtimagemapview = {group = "io.github.stkim1", name = "view-mtimagemapview", version.ref = "stkim1MTImageMapView"}
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

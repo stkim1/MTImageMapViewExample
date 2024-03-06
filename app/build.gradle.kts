@@ -45,7 +45,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.squareup.moshi.kotlin)
-    implementation(libs.stkim1.view.mtimagemapview)
+    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.aar", "*.jar"))))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
 }
